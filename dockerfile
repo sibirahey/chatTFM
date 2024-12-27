@@ -13,6 +13,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copiar el código de la aplicación al contenedor
 COPY . .
 
+# Copiar explícitamente el archivo de la base de datos
+COPY db/ db/
+
 # Exponer el puerto que usará Streamlit
 EXPOSE 8501
 
