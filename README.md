@@ -79,7 +79,7 @@ en la base de datos ChromaDB.
 
 4. Ejecuta la aplicación Streamlit:
 
-   ```
+   ```shell
    streamlit run app.py
    ```
 
@@ -87,13 +87,13 @@ en la base de datos ChromaDB.
 
 1. Construye la imagen Docker:
 
-```
+```shell
 docker build -t streamlit-app .
 ```
 
 2. Ejecuta el contenedor:
 
-```
+```shell
 docker run -p 8501:8501 --name chatbot-container streamlit-app
 ```
 
