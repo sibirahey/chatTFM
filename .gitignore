@@ -1,0 +1,35 @@
+# Ignorar entorno virtual
+venv/
+.env
+
+# Ignorar configuración específica del editor
+.vscode/
+.idea/
+
+# Ignorar cachés y archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Ignorar archivos de bases de datos locales
+db/
+
+# Ignorar logs y otros archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignorar dependencias instaladas
+*.egg-info/
+dist/
+build/
+
+# Ignorar configuración de Streamlit
+.streamlit/
+
+# Ignorar archivos de configuración de sistema operativo
+.DS_Store
+Thumbs.db
